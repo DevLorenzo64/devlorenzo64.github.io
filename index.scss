@@ -201,14 +201,12 @@ header {
         width: 50%;
         background: $white1;
         min-height: 500px;
-        position: relative;
 
         @media screen and (max-width: 767px) {
             width: 100%;
         }
 
         .section-one-left-container {
-            position: relative;
             border: 1px dashed $doree;
             min-height: 500px;
             
@@ -239,7 +237,6 @@ header {
                 position: absolute;
                 padding: 10px;
                 border-radius: 100px;
-                left: -5000px;
             }
 
         
