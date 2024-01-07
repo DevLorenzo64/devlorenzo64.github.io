@@ -210,12 +210,11 @@ header .header-main p {
   position: absolute;
   padding: 10px;
   border-radius: 100px;
-  left: -5000px;
 }
 .section-one-container .section-one-left .section-one-left-container h5 {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
-  margin-top: 15%;
+  margin-top: 1%;
 }
 .section-one-container .section-one-left .section-one-left-container h6 {
   font-family: "Poppins", sans-serif;
