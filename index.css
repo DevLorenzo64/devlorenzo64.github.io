@@ -327,6 +327,13 @@ header .header-main p {
     display: block;
   }
 }
+
+ @media screen and (min-width: 768px) and (max-width: 1024px) {
+   .section-menu-container .menu-container {
+     width: 70%;
+     display: block;   
+   }
+ }
 .section-menu-container .menu-container::before {
   content: "";
   position: absolute;
@@ -336,9 +343,17 @@ header .header-main p {
 }
 @media screen and (max-width: 767px) {
   .section-menu-container .menu-container::before {
-    display: none;
+    display: block;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .section-menu-container .menu-container::before {
+    display: block;
+  } 
+}
+
+
 .section-menu-container .menu-container p {
   font-family: "Roboto", sans-serif;
   font-size: 0.7rem;
